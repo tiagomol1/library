@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------------------------------- */
+/* inicio da 'index' acesso */
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.conteudo{
+    width: 420px;
+    height: 450px;
+    margin: 0 auto;
+    border: 1px solid #737373;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3.5px #c0c0c0;
+}
+    
+
+.img-login{
+    width: 160px;  
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#esqueceuSenha{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 14px;
+    color: #737373;
+    cursor: pointer;
+}
+
+.input_login{
+    width: 100%;
+    height: 37px;
+    font-size: 20px;
+    border: 0.5px solid #737373;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px;
+    position: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
+.button_login{
+    width: 100px;
+    height: 40px;       
+    font-size: 20px; 
+    margin-top: 20px;
+    border: 0.5px solid #737373;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #1f1e1e;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button_login:hover{
+    width: 100px;
+    transition: 0.3s;  
+    height: 40px;       
+    font-size: 20px; 
+    margin-top: 20px;
+    border: 0.5px solid #737373;
+    border-radius: 5px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3f3f3f;
+    transition: 0.2s;
+    text-align: center;
+    cursor: pointer;
+}
+/* fim da 'index' acesso */
+
+
+
+/* ---------------------------------------------------- */
+/* inicio rodape  */
+.rodape{
+    bottom: 0;
+    margin-bottom: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #737373;
+}
+
+.rodape a{
+    color: #737373;
+}
+
+/* fim rodape  */
