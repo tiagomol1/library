@@ -1,7 +1,6 @@
 <?php
-    session_start();
-
-    if ($_SESSION['usuario'] == ""){
-        header("Location: ../pages/safadinho.php");
-    }
- ?>
+	session_start();
+	if ($_SESSION['usu']==""){
+		header("Location: security/safadinho.php");
+	}
+?>

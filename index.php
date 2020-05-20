@@ -1,7 +1,6 @@
 <?php
-    session_start();
+	session_start();
+	$_SESSION['usu']="";
 
-    $_SESSION['usuario'] = "";
-
-    header("Location: pages/login.php");
- ?>
+	Header("Location: login.php"); 
+?>

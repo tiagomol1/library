@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.conteudo{
+    z-index: 2000;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    color: #f1f1f1;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo h1{
+    color: #fff;
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.conteudo h3{
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.conteudo .loginContainer{
+    z-index: 2000;
+    margin: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 10px rgba(0, 0, 0, 0.329);
+}
+
+.conteudo .loginContainer form{
+    font: 400 14px Open Sans, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo .loginContainer form img{
+    margin-top: 50px;
+}
+
+
+.conteudo .loginContainer form .inputs_login{
+    margin-bottom: 10px;
+}
+
+.conteudo .loginContainer form .inputs_login input{
+    font: 400 14px Open Sans, sans-serif;
+    height: 40px;
+    width: 240px;
+    font-size: 18px;
+    box-shadow: inset 1px 1px 7px 3px #e4e4e4;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 8px;
+}
+
+.conteudo .loginContainer form button{
+    border-radius: 5px;
+    font: 800 Open Sans, sans-serif;
+    height: 36px;
+    width: 95px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2px;
+    background-color: rgb(121, 121, 121);
+    border: 1px solid rgb(121, 121, 121);
+    color: #fff;
+    cursor: pointer;
+}
+
+.conteudo .loginContainer form button:hover{
+    background-color: rgba(121, 121, 121, 0.123);
+    color: rgb(121, 121, 121);
+    transition: 0.5s;
+}
+
+
+.conteudo .loginErrorContainer{
+    margin-top: 65px;
+    z-index: 2000;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 10px rgba(0, 0, 0, 0.329);
+    font: 800 Open Sans, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(121, 121, 121);
+}
+
+
+.conteudo .loginErrorContainer h3{
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.conteudo .loginErrorContainer .linkReturnLogin{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(121, 121, 121);
+    text-decoration: none;
+}
+
+.conteudo .loginErrorContainer .linkReturnLogin:hover{
+    margin-right: 18px;
+    transition: 0.3s;
+    color: #000;
+}
+
+.conteudo .loginErrorContainer .linkReturnLogin img{
+    width: 16px;
+    margin-right: 2px;
+    color: #000;
+}
