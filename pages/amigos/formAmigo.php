@@ -93,7 +93,7 @@
 				</tr>
 			
 				<tr>
-					<td><input type="submit" value="<?php echo $etiqueta; ?>" onclick="return confirma();"></td>
+					<td><input type="submit" value="<?php echo $etiqueta; ?>" onclick="return confirma();" id='btnAcao'></td>
 					
 					<td><input type="button" value="Voltar" onclick="history.go(-1);"> 
 					    <input type="reset" value="Recarregar">

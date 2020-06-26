@@ -24,7 +24,7 @@
 						<input type="text" id="fUsuario" name="fUsuario" placeholder="Usuário"><br><br>
 						<input type="password" id="fSenha" name="fSenha" placeholder="Senha"><br><br>
 					</div>
-					<button type="submit">Entrar</button>
+					<button type="submit" id="btnEntrar">Entrar</button>
 				</form>	
 			</div>
 		</div>	

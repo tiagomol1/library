@@ -20,7 +20,7 @@
 	<body>
 		<h1>Lista de Amigos</h1>
 	
-		<p><a href="formAmigo.php?acao=i">Incluir</a> | <a href="../../principal.php">Principal</a></p>
+		<p><a href="formAmigo.php?acao=i" id="incluirAmigo">Incluir</a> | <a href="../../principal.php">Principal</a></p>
 		<table border=1>
 			<tr>
 				<td>Código</td>
@@ -36,8 +36,8 @@
 				<td><?php echo $ami['amiNome']; ?></td>
 				<td><?php echo $ami['amiEmail']; ?></td>
 				<td><?php echo $ami['amiTelefone']; ?></td>
-                <td><a href="formAmigo.php?acao=a&cod=<?php echo $ami['amiCodigo']; ?>">Alterar</a></td>
-                <td><a href="formAmigo.php?acao=e&cod=<?php echo $ami['amiCodigo']; ?>">Excluir</a></td>
+				<td><a href="formAmigo.php?acao=a&cod=<?php echo $ami['amiCodigo']; ?>" id="alterar">Alterar</a></td>
+				<td><a href="formAmigo.php?acao=e&cod=<?php echo $ami['amiCodigo']; ?>" id="excluir">Excluir</a></td>
 
 			</tr>
 			<?php endforeach; ?>
